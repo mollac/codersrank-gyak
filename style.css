@@ -6,10 +6,6 @@ body {
     margin-top: 50px;
     font-family: sans-serif;
 }
-h1 {
-  color: slateblue;
-  text-align: center;
-}
 
 h2 {
   font-size: 1em;
@@ -17,20 +13,16 @@ h2 {
   margin: 10px 10px 10px 10px;
 }
 
-p {
-  color: tomato;
-  margin: 0px 20px;
-  }
 
 .mclass {
   display: block;
   margin-left: 0 auto;
-  margin-top: 10px;
-  padding: 20px;
+  margin-top: 5px;
+  padding: 5px;
   align-content: center;
   justify-content: center;
   width: 300px;
-  height: 30px;
+  height: 60px;
   background-color: azure;
   border: 1px solid black
 }  
@@ -41,4 +33,17 @@ p {
 
 .sq {
   list-style-type: square;
+}
+.cities {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
 }
